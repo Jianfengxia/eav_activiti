@@ -1,0 +1,23 @@
+{
+  "name": "Jack/eav_activiti",
+  "description": "Cooperation & Management Information System",
+  "minimum-stability": "stable",
+  "authors": [
+      {
+          "name": "Jack",
+          "email": "jackxia5@foxmail.com"
+      }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "filp/whoops": "*",
+    "nategood/httpful": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "app/controllers",
+      "app/models",
+      "app/views"
+    ]
+  }
+}
